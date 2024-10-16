@@ -463,6 +463,7 @@ header{
     color: #6A6A6A;
     margin-left: auto;
     margin-right: auto;
+    margin-bottom: 47px;
 }
 
 .piclink{
@@ -478,9 +479,10 @@ header{
 
 .sctn3{
     width: 71.42%;
-    height: 15.1%;
+    height: 15.2%;
     margin-left: auto;
     margin-right: auto;
+    margin-bottom: 50px;
 }
 
 .divblog{
@@ -491,4 +493,151 @@ header{
 .p6, .p7{
     text-align: center;
     font-family: font1;
+}
+
+.p6{
+    font-weight: bold;
+    font-size: 40px;
+    color: #242565;
+    margin-bottom: 20px;
+}
+
+.p7{
+    font-weight: 400;
+    font-size: 18px;
+    color: #6A6A6A;
+}
+
+.pal3{
+    font-family: font1;
+    font-size: 20px;
+    font-weight: bold;
+    color: #242565;
+    margin-bottom: 26px;
+    margin-top: 20px;
+}
+
+.undrtxt{
+    font-family: font1;
+    font-size: 14px;
+    font-weight: 300;
+    color: #A5A5A5;
+}
+
+.footer{
+    width: 100%;
+    height: 430px;
+    background-color: #0A075F;   
+    overflow: hidden;
+    padding-left: 100px;
+    padding-right: 100px;
+    padding-top: 59.56px;
+    display: flex;
+}
+
+.footer p{
+    font-family: font1;
+    color: #F3F3F3;
+}
+
+.ftr1{
+    width: 333px;
+    height: 193.44px;
+}
+
+.ftr2{
+    width: 121px;
+    height: 159px;
+}
+
+.ftr3{
+    width: 87px;
+    height: 243px;
+}
+
+.frt4{
+    width: 364px;
+    height: 171.79px;
+
+}
+
+.ftrpr{
+    font-weight: 300;
+    font-size: 14px;
+    margin-bottom: 17px;
+}
+
+.divicn img{
+    width: 36px;
+    height: 36px;
+}
+
+.divimg img{
+    height: 38.56px;
+    width: 152.75px;
+}
+
+.divimg{
+    margin-bottom: 17.44px;
+}
+
+.p8{
+    font-weight: bold;
+    font-size: 18px;
+    padding-bottom: 24px;
+}
+
+.pal4{
+    font-weight: 300;
+    font-size: 14px;
+    padding-bottom: 16px;
+}
+
+.ftrnw{
+    width: 362px;
+    height: 91px;
+}
+
+.ftrnew{
+    width: 364px;
+    height: 60.79px;
+    background-color: white;
+    border-width: 2px;
+    border-color: #F1F1F1;
+    border-radius: 45.59px;
+
+}
+
+.btnsub{
+    padding: 15.2px 30.4px 15.2px;
+    border-radius: 50px;
+    background-color: #F5167E;
+    border: none;
+    color: white;
+    font-weight: 500;
+    font-size: 12.16px;
+    cursor: pointer;
+}
+
+.btnsub:hover{
+    opacity: 0.7;
+    transition: 0.3s;
+}
+
+.btnsub:active{
+    opacity: 0.3;
+    transition: 0.3s;
+}
+
+.plchldr{
+    font-family: font1;
+    font-weight: 400;
+    font-size: 12.16px;
+    width: 160px;
+    height: 16px;
+    outline: none;
+    border-width: 0px;
+    margin-right: 26px;
+    margin-left: 26px;
+    margin-top: 23px;
 }
