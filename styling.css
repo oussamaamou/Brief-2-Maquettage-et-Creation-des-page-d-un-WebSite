@@ -877,5 +877,84 @@ header{
 /* Styling Code of About Page*/
 
 /* Styling Code of Login Page*/
+.logintp div {
+    margin-left: 8%;
+    margin-right: 7%;
+    margin-bottom: 8%;
+}
 
+.loginpr p{
+    font-family: font1;
+    font-size: 96px;
+    font-weight: bold;
+    text-align: center;
+    color: #242565;
+    margin-top: 12%;
+}
+
+.logintp{
+    background-color: white;
+    width: 880px;
+    height: 1000px;
+    border-radius: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 34%;
+    margin-top: 10%;
+    padding-top: 12%;
+
+}
+
+.usrnm, .pswrd{
+    font-family: font1;
+    font-weight: 600;
+    font-size: 32px;
+    color: #242565;
+}
+
+.pwrtp, .usrnmtp{
+    font-family: font1;
+    font-size: 32px;
+    font-weight: 300;
+    color: #928F8F;
+    padding: 10px 350px 10px 35px;
+    border-radius: 19px;
+    box-shadow: 6px 7px 8px hsl(0, 0%, 59%);
+    border-width: 3px;
+    border-style: solid;
+    outline: none;
+}
+
+.log3{
+    font-family: font1;
+    font-size: 32px;
+    font-weight: 600;
+    text-align: center;
+}
+
+.log44{
+    padding: 20px 374px 19px 290px;
+    font-family: font1;
+    font-size: 32px;
+    font-weight: 600;
+    border-radius: 20px; 
+    cursor: pointer;
+    width: 715px;
+    border: none;
+    background: linear-gradient(to right,#ED4690,#5522CC);
+}
+
+.log5{
+    font-family: font1;
+    text-align: center;
+    font-size: 32px;
+    font-weight: 300;
+    color: #928F8F;
+}
+
+.log6{
+    display: flex;
+    column-gap: 44px;
+    justify-content: center;
+}
 /* End of Styling Code of Login Page*/
