@@ -6,12 +6,7 @@
     font-family: font1;
     src: url("fonts/dmsans.ttf");
 }
-
-body{
-    height: 3378px;
-
-    
-}
+/* Styling CSS of The Home Page*/
 ul{
     margin-top: 25px;
     margin-left: 50px;
@@ -133,6 +128,7 @@ header{
     border: none;
     background-color: #F5167E;
     margin-right: 20px;
+    cursor: pointer;
 }
 
 .btn1:hover {
@@ -158,6 +154,7 @@ header{
     border-width: 2px;
     border-color: white ;
     border-style: solid;
+    cursor: pointer;
 
 }
 
@@ -664,4 +661,157 @@ header{
 .mnftr{
     display: flex;
     column-gap: 110px;
+}
+
+.divblog img:hover{
+    cursor: pointer;
+    width: 347px;
+}
+
+/* End of Styling code of the Home Page*/
+
+/* Styling Code of Speakers Page*/
+.nwbtn{
+    width: 408px;
+    height: 60px;
+    background-color: #F5167E;
+    border-radius: 50px;
+    border: none;
+    cursor: pointer;
+    margin-top: 9px;
+    
+}
+
+.nwbtn:hover {
+    background-color: white;
+    transition: 0.3s;
+    
+}
+
+.nwbtn:active {
+    background-color: white;
+    transition: 0.3s;
+    opacity: 0.5;
+    
+}
+
+
+.nwbtn a{
+    text-decoration: none;
+    font-family: font1;
+    font-size: 18px;
+    font-weight: bold;
+    color: white;
+
+}
+
+.nwbtn a:hover{
+    color: #0A075F;
+    transition: 0.3s;
+    font-size: 20px;
+    
+}
+
+.nwbtn a:active{
+    color: #0A075F;
+    background-color: white;
+    transition: 0.3s;
+    opacity: 0.5; 
+    font-size: 18px; 
+}
+
+.spkrdiv{
+    display: flex;
+    column-gap: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 137px;
+    width: 1200px;
+    height: 200px;
+    align-items: center;
+    
+}
+
+.p9{
+    font-family: font1;
+    font-weight: 400;
+    font-size: 32px;
+}
+
+.spkrdiv h1{
+    font-family: font1;
+    font-weight: bold;
+    font-size: 96px;
+    margin-left: 75px;
+}
+
+.divspkr h1, p{
+    font-family: font1;
+    color: #242565;
+
+}
+
+.divspkr1 h1, p{
+    font-family: font1;
+    color: #242565;
+
+}
+
+.divspkr h1{
+    font-weight: bold;
+    font-size: 32px;
+}
+
+.divspkr p{
+    font-weight: bold;
+    font-size: 16px;
+}
+
+.divspkr1 h1{
+    font-weight: bold;
+    font-size: 32px;
+}
+
+.divspkr1 p{
+    font-weight: bold;
+    font-size: 16px;
+}
+
+.divspkr{
+    width: 351px;
+    margin-bottom: 48%;
+}
+
+.divspkr1{
+    width: 351px;
+    margin-bottom: 24%;
+    margin-top: 23%;
+}
+
+.icninsta{
+    margin-left: 45%;
+}
+
+.spkrsctn{
+    margin-left: 9%;
+    margin-right: 7%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.shdw{
+    filter: drop-shadow(11px 12px 10px hsl(0, 0%, 48%));
+    cursor: pointer;
+}
+
+.shdwpr{
+    text-shadow: 11px 12px 10px hsl(0, 0%, 48%);
+    margin-top: 15px;
+    margin-bottom: 20px;
+
+}
+
+.shdwhr{
+    text-shadow: 11px 12px 10px hsl(0, 0%, 48%);
+    margin-top: 15px;
 }
