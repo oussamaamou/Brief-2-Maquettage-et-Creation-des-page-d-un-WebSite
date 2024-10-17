@@ -828,6 +828,8 @@ header{
 .abt1{
     display: flex;
     column-gap: 0.5%;
+    padding-left: 4%;
+    padding-top: 9%;
 
 }
 
@@ -846,11 +848,15 @@ header{
 .abt1 p{
     font-size: 24px;
     font-weight: 300;
-    width: 64%;
+    width: 67%;
 }
 
 .abt2{
     display: flex;
+    padding-left: 7%;
+    padding-top: 5%;
+    padding-bottom: 10%;
+    padding-right: 1%;
 }
 
 .abt2 h1,p{
@@ -868,12 +874,9 @@ header{
 .abt2 p{
     font-size: 24px;
     font-weight: 300;
-    width: 64%;
+    width: 67%;
 }
 
-.aboutsct{
-
-}
 /* Styling Code of About Page*/
 
 /* Styling Code of Login Page*/
@@ -917,7 +920,7 @@ header{
     font-size: 32px;
     font-weight: 300;
     color: #928F8F;
-    padding: 10px 350px 10px 35px;
+    padding: 10px 350px 10px 76px;
     border-radius: 19px;
     box-shadow: 6px 7px 8px hsl(0, 0%, 59%);
     border-width: 3px;
@@ -956,5 +959,11 @@ header{
     display: flex;
     column-gap: 44px;
     justify-content: center;
+}
+
+.icnpls{
+    position: absolute;
+    padding-top: 0.7%;
+    padding-left: 1.5%;
 }
 /* End of Styling Code of Login Page*/
