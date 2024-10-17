@@ -525,14 +525,13 @@ header{
 }
 
 .footer{
-    width: 100%;
+    width: 1319px;
     height: 430px;
     background-color: #0A075F;   
     overflow: hidden;
     padding-left: 100px;
     padding-right: 100px;
     padding-top: 59.56px;
-    display: flex;
 }
 
 .footer p{
@@ -555,7 +554,7 @@ header{
     height: 243px;
 }
 
-.frt4{
+.ftr4{
     width: 364px;
     height: 171.79px;
 
@@ -596,6 +595,7 @@ header{
 .ftrnw{
     width: 362px;
     height: 91px;
+    margin-bottom: 20px;
 }
 
 .ftrnew{
@@ -617,6 +617,7 @@ header{
     font-weight: 500;
     font-size: 12.16px;
     cursor: pointer;
+    font-family: font1;
 }
 
 .btnsub:hover{
@@ -640,4 +641,27 @@ header{
     margin-right: 26px;
     margin-left: 26px;
     margin-top: 23px;
+}
+
+.ftr5{
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 165px;
+    width: 1200px;
+    background-color: #4C4D8B;
+    height: 1px;
+}
+
+.ftr6{
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 21px;
+    width: 186px;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.mnftr{
+    display: flex;
+    column-gap: 110px;
 }
