@@ -738,6 +738,12 @@ header{
     font-size: 32px;
 }
 
+.p10{
+    font-family: font1;
+    font-weight: 500;
+    font-size: 36px;
+}
+
 .spkrdiv h1{
     font-family: font1;
     font-weight: bold;
@@ -815,3 +821,61 @@ header{
     text-shadow: 11px 12px 10px hsl(0, 0%, 48%);
     margin-top: 15px;
 }
+/* End Styling Code of Speakers Page*/
+
+/* Styling Code of About Page*/
+
+.abt1{
+    display: flex;
+    column-gap: 0.5%;
+
+}
+
+.abt1 h1,p{
+    font-family: font1;
+
+}
+
+.abt1 h1{
+    font-size: 48px;
+    font-weight: 500;
+    margin-top: 3%;
+    margin-bottom: 6%;
+}
+
+.abt1 p{
+    font-size: 24px;
+    font-weight: 300;
+    width: 64%;
+}
+
+.abt2{
+    display: flex;
+}
+
+.abt2 h1,p{
+    font-family: font1;
+
+}
+
+.abt2 h1{
+    font-size: 48px;
+    font-weight: 500;
+    margin-top: 3%;
+    margin-bottom: 6%;
+}
+
+.abt2 p{
+    font-size: 24px;
+    font-weight: 300;
+    width: 64%;
+}
+
+.aboutsct{
+
+}
+/* Styling Code of About Page*/
+
+/* Styling Code of Login Page*/
+
+/* End of Styling Code of Login Page*/
