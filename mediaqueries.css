@@ -6,15 +6,15 @@
     }
 
     .upper {
-        margin-left: 73.29px;
-        margin-top: 10.77px;
-        width: 63.93px;
+        margin-left: 6%;
+        margin-top: 0%;
+        width: 53.93px;
     }
 
     .logo {
-        width: 60.32px;
-        height: 16px;
-        margin-left: 50%;
+        width: 70.32px;
+        height: 20px;
+        margin-left: 41%;
         margin-top: 25px;
     }
 
@@ -40,9 +40,6 @@
     .slct{
         width: 120.59px;
         height: 13.48px;
-        -webkit-appearance: none;
-        -moz-appearance: none;
-        outline: none;
         font-family: font1;
         font-weight: bold;
         font-size: 8.69px;
@@ -51,17 +48,14 @@
         border-right-width: 0px;
         border-left-width: 0px;
         border-bottom-width: 0.39px;
-        border-bottom-color: #7778B0;
-        background-color: #242565;
         color: white;
         margin-top: 4.34px;
         margin-left: -1.57px;
     }
     
     .slctnw{
-        width: 120.59px;
-        height: 13.48px;
-        outline: none;
+        width: 126.59px;
+        height: 16.48px;
         font-family: font1;
         font-weight: bold;
         font-size: 8.69px;
@@ -70,8 +64,6 @@
         border-right-width: 0px;
         border-left-width: 0px;
         border-bottom-width: 0.39px;
-        border-bottom-color: #7778B0;
-        background-color: #242565;
         color: white;
         margin-top: 4.34px;
         margin-left: -1.57px;
@@ -88,6 +80,69 @@
         margin-right: 7%;
         display: grid;
         grid-template-columns: 1fr;
+    }
+
+    .login{
+        margin-top: 15%;
+        margin-left: 45%;
+    }
+
+    .pwrtp, .usrnmtp{
+        font-size: 12.63px;
+        padding: 4px 138.22px 4px 31px;
+    }
+
+    .icnpls{
+        width: 12px;
+        padding-top: 1.4%;
+        padding-left: 2%;
+    }
+
+    .usrnm, .pswrd{
+        font-size: 12.64px;
+    }
+
+    .logintp{
+        width: 347.5px;
+        padding-bottom: 4%;
+        height: 100%;
+        padding-right: 8%;
+    }
+
+    .log3{
+        font-size: 12.64px;
+    }
+
+    .log5 p{
+        font-size: 12.64px;
+    }
+
+    .log44{
+        padding: 7.9px 50px 7.8px 60px;
+        font-size: 12.64px;
+        width: 282.35px;
+    }
+
+    .editicn{
+        width: 52%;
+    } 
+
+    .logintp div{
+        margin-left: 8%;
+        margin-right: 7%;
+        margin-bottom: 6%;
+    }
+
+    .log6 {
+        display: flex;
+        column-gap: 0px;
+        justify-content: center;
+    }
+
+    .mnftr{
+        display: grid;
+        grid-template-columns: 1fr;
+        row-gap: 23%;
     }
 
 }
