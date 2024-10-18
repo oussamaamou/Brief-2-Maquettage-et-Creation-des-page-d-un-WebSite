@@ -90,9 +90,6 @@ header{
     margin-left: 470px;
     margin-top: 11px;
     width: 410px;
-    margin-left: 410px;
-    
-
 }
 
 
@@ -229,12 +226,13 @@ header{
     padding-left: 48px;
     color: white;
 }
- .ulst1{
+
+.ulst1{
     list-style: none;
     
- }
+}
 
- .slct{
+.slct{
     -webkit-appearance: none;
     -moz-appearance: none;
     outline: none;
@@ -251,9 +249,9 @@ header{
     color: white;
     margin-top: 11px;
     margin-left: -4px;
- }
+}
 
- .slctnw{
+.slctnw{
     outline: none;
     font-family: font1;
     font-weight: bold;
@@ -269,7 +267,7 @@ header{
     margin-top: 11px;
     margin-left: -4px;
 
- }
+}
 
  .slct,.slctnw{
     cursor: pointer;
