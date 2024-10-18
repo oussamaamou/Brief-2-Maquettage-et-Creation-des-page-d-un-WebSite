@@ -534,6 +534,21 @@ header{
     color: #F3F3F3;
 }
 
+.footer1{
+    width: 1319px;
+    height: 430px;
+    background-color: #0A075F;   
+    overflow: hidden;
+    padding-left: 100px;
+    padding-right: 100px;
+    padding-top: 59.56px;
+}
+
+.footer1 p{
+    font-family: font1;
+    color: #F3F3F3;
+}
+
 .ftr1{
     width: 333px;
     height: 193.44px;
